@@ -4,7 +4,7 @@ Modified AMIBIOS8 firmware for the **ASUS A8R-MVP**, based on ASUS BIOS **0605**
 
 Image: `A8RSDA01.ROM`, 512 KiB.
 
-<img width="2656" height="2784" alt="grafik" src="https://github.com/user-attachments/assets/9d3ba28c-a603-46e1-8501-176cfd2af5fb" />
+<img width="2656" height="2784" alt="grafik" src="https://github.com/user-attachments/assets/aa596f5d-650d-40f5-b67f-a3635ae209bf" />
 
 ## Features
 
@@ -15,6 +15,7 @@ Image: `A8RSDA01.ROM`, 512 KiB.
 - *Memclock Value* shows the DDR rate with the FSB:DRAM ratio, e.g. `DDR400 (1:1)`.
 - *HT Link Speed* shows the HT multiplier `1x`–`5x`.
 - Help texts for the DRAM timings (written-out names) and the voltage items.
+- *DRAM ECC Enable* offers only *Disabled* when a non-ECC module is installed (SPD check, port of the ASUS A8N32-SLI Deluxe BIOS 1009 change).
 - VCORE Over-voltage adds about +40 mV (measured +41 mV; circuit: IT8712F GPIO → PNP current source into the ADP3186 FBRTN pin).
 
 The main module uses AMI LH5 compression. Module and main BIOS checksums are valid for ASUS AFUDOS 1.19.
