@@ -15,6 +15,7 @@ Image: `A8RSDA01.ROM`, 512 KiB.
 - *Memclock Value* shows the DDR rate with the FSB:DRAM ratio, e.g. `DDR400 (1:1)`.
 - *HT Link Speed* shows the HT multiplier `1x`–`5x`.
 - Help texts for the DRAM timings (written-out names) and the voltage items.
+- VCORE Over-voltage adds about +40 mV (measured +41 mV; circuit: IT8712F GPIO → PNP current source into the ADP3186 FBRTN pin).
 
 The main module uses AMI LH5 compression. Module and main BIOS checksums are valid for ASUS AFUDOS 1.19.
 
