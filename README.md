@@ -4,7 +4,7 @@ Modified AMIBIOS8 firmware for the **ASUS A8R-MVP**, based on ASUS BIOS **0605**
 
 Image: `A8RSDA01.ROM`, 512 KiB.
 
-<img width="2656" height="2784" alt="grafik" src="https://github.com/user-attachments/assets/5e12ecdd-efcc-4569-905c-f483719d7a81" />
+<img width="2656" height="2784" alt="grafik" src="https://github.com/user-attachments/assets/9d3ba28c-a603-46e1-8501-176cfd2af5fb" />
 
 ## Features
 
