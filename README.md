@@ -1,8 +1,10 @@
 # ASUS A8R-MVP — BIOS 0605 O.C. Profile Mod
 
-Modified AMIBIOS8 firmware for the **ASUS A8R-MVP**, based on ASUS BIOS **0605**. Image: `A8RSDA01.ROM`, 512 KiB.
+Modified AMIBIOS8 firmware for the **ASUS A8R-MVP**, based on ASUS BIOS **0605**.
 
-![Changed setup screens](screens.png)
+Image: `A8RSDA01.ROM`, 512 KiB.
+
+<img width="2656" height="2784" alt="grafik" src="https://github.com/user-attachments/assets/5e12ecdd-efcc-4569-905c-f483719d7a81" />
 
 ## Features
 
@@ -13,13 +15,12 @@ Modified AMIBIOS8 firmware for the **ASUS A8R-MVP**, based on ASUS BIOS **0605**
 - *Memclock Value* shows the DDR rate with the FSB:DRAM ratio, e.g. `DDR400 (1:1)`.
 - *HT Link Speed* shows the HT multiplier `1x`–`5x`.
 - Help texts for the DRAM timings (written-out names) and the voltage items.
-- POST version string includes `by sda2`.
 
 The main module uses AMI LH5 compression. Module and main BIOS checksums are valid for ASUS AFUDOS 1.19.
 
 ## Validation
 
-Offline: module and main checksums, the board's original LH5 decoder and segment loader, 26 emulator tests and the AFUDOS 1.19 checksum routine. Development builds were tested on hardware.
+Hardware testing confirmed correct operation with all BIOS settings and successful DOS flashing. Both profiles remain persistent after mains power removal and a CMOS reset.
 
 ## Flashing
 
